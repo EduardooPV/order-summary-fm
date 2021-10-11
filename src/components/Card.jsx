@@ -3,7 +3,7 @@ import Logo from '../images/illustration-hero.svg';
 import Music from '../images/icon-music.svg';
 
 const Container = styled.section`
-  height: 100vh;
+  height: 100%;
 
   display: flex;
   align-items: center;
@@ -18,7 +18,7 @@ const ContainerCard = styled.div`
   border-radius: 20px;
   z-index: 2;
   @media(min-width: 769px) {
-    width: 400px;
+    width: 450px;
   }
 `
 

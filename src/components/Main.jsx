@@ -1,8 +1,6 @@
 import styled from 'styled-components'
 
 import Card from './Card'
-import Footer from './Footer'
-
 import Background from '../images/pattern-background-desktop.svg'
 
 const Container = styled.main`
@@ -27,8 +25,6 @@ export default function Main() {
   return (
     <Container>
       <Card />
-
-      <Footer />
     </Container>
   )
 }
